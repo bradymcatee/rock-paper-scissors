@@ -1,0 +1,50 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.selection-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.selection{
+    display: flex;
+    border: 3px;
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.heading{
+  text-align: center;  
+}
+
+.selection:hover{
+  border-color: lightskyblue;
+  color: lightskyblue;
+  scale: 1.1;
+}
+
+#score-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+  margin-top: 50px
+}
+.score{
+  font-size: large;
+}
+
+#winner-container{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+}
+
